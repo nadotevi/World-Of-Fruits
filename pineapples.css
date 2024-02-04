@@ -1,0 +1,120 @@
+/* Reset CSS */
+        body, h1, h2, p, ul, ol, li, blockquote {
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        body {
+            background-color: #9e0000;
+            margin: 1% 2%;
+            min-height: 100vh; 
+			line-height: 1.2;
+        }
+
+        header {
+            background-color: #ff0000;
+            color: #ff8080;
+            padding: 10px;
+            text-align: center;
+			font-family: 'Dokdo', system-ui;
+			font-size: 25px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+            color: #fff;
+            font-weight: normal;
+        }
+
+        .left-column {
+            background-color: #9e0000;
+			width: 35%;
+			float: left;
+			margin: 2%;
+			line-height: normal;
+			font-family: 'Concert One', sans-serif;
+        }
+
+        article h2 {
+            color: #ffffff;
+        }
+
+        article p {
+            color: #cf8080;
+            padding: 10px 0;
+        }
+
+        .right-column {
+            width: 28%; 
+            background-color: #f2f2f2;
+			float: right;
+			padding: 2%;
+			margin: 2%;
+			line-height: normal;
+			font-family: 'Concert One', sans-serif;
+			color: #000000;
+        }
+
+        
+        footer {
+            background-color: #ff0000;
+            color: #ff8080;
+            margin: auto;
+			padding: 10px;
+            width: 100%;
+			clear: right;
+			text-align: center;
+			font-family: 'Concert One', sans-serif;
+        }
+		
+		table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: auto;
+            margin-top: 20px;
+			border-color: #000000;
+        }
+		
+		.image {
+		text-align: center;
+		float: left;
+		color: #cf8080;
+		}
+		
+		.image {
+            width: 20%;
+			margin: 2%;
+			padding: 0%;
+			text-align: center;
+			font-family: 'Concert One', sans-serif;
+			margin-top: 8%;
+        }
+		
+		h2 {
+		font-family: 'Miltonian Tattoo', serif;
+		}
+		
+		.right-column h2 {
+		color: #000000;
+		text-align: center;
+		}
+		
+		.right-column p {
+		color: #000000;
+		}
+		
+		nav a:hover {
+		color: #ff8080; 
+		}

@@ -1,0 +1,137 @@
+		/* Reset CSS */
+        body, h1, h2, p, ul, ol, li, blockquote {
+            margin: 0;
+            padding: 0;
+        }
+
+        
+        body {
+            background-color: #9e0000;
+            margin: 1% 2%;
+            min-height: 100vh; 
+        }
+
+        header {
+            background-color: #ff0000;
+            color: #ff8080;
+            padding: 10px;
+            text-align: center;
+			font-family: 'Dokdo', system-ui;
+			font-size: 25px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+            color: #fff;
+            font-weight: normal;
+        }
+
+        .left-column {
+			background-color: #9e0000;
+			width: 30%;
+			float: left;
+			margin: 2% 2% 20px 2%; 
+			padding: 1%;
+			font-family: 'Concert One', sans-serif;
+		}
+
+        article h2 {
+            color: #ffffff;
+        }
+
+        article p {
+            color: #cf8080;
+            padding: 10px 0;
+        }
+
+        .right-column {
+            width: 29%; 
+            background-color: #f2f2f2;
+			float: right;
+			margin: 2%;
+			font-family: 'Concert One', sans-serif;
+			padding: 10px;
+        }
+
+        
+        footer {
+            background-color: #ff0000;
+            color: #ff8080;
+            clear: left;
+			padding: 10px;
+            width: 100%;
+			font-family: 'Concert One', sans-serif;
+			text-align: center;
+			
+			
+        }
+		
+		.right-column-content {
+		width: 85%;
+		padding: 6%;
+		}
+		
+		.right-column-content p {
+		text-align: center;
+		}
+		
+		.right-column-content-retry {
+		text-align: left;
+		}
+		
+		article figure {
+		float: left;
+		margin-right: 10px; 
+		text-align: center;
+		}
+
+
+		article::after {
+		content: "";
+		display: table;
+		clear: both;
+		}
+		
+		.watermelon-column{
+		text-align: center;
+		color: #cf8080;
+		float: left;
+		width: 20%;
+		color: #ff8080;
+		font-family: 'Concert One', sans-serif;
+		margin: 2%;
+		margin-top: 10%;
+		margin-right: 0%;
+		}
+		
+		blockquote {
+		margin: 20px 0;
+		padding: 10px;
+		background-color: #f9f9f9;
+		border-left: 5px solid #ff0000; 
+		color: #555;
+		font-style: italic;
+		}
+		
+		.right-column-content ol {
+		line-height: 1.2; 
+		}
+		
+		h2 {
+		font-family: 'Miltonian Tattoo', serif;
+		}
+		
+		nav a:hover {
+		color: #ff8080; 
+		}
